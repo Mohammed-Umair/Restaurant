@@ -1,0 +1,191 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main {
+  width: 100vw;
+  height: 100%;
+  background-color: rgb(97, 179, 179);
+  /* position: relative; */
+}
+.address {
+  width: 100%;
+  height: 30px;
+  padding-top: 8px;
+  background-color: rgb(29, 79, 68);
+  background-attachment: scroll;
+
+}
+h5 {
+  text-align: center;
+  color: #fff;
+  font-family: Crimson Text;
+  font-size: 12px;
+}
+.nav {
+  width: 100%;
+  height: 100px;
+  /* background-color: blanchedalmond; */
+  display: flex;
+  position: fixed;
+  z-index: 1;
+}
+.nav .logo {
+  width: 30%;
+  height: 100px;
+  background-color: rgb(247, 248, 243);
+  background-image: url(./images/tailors_logo_1.png);
+  /* background-size: 100% 100%; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.nav .menu {
+  width: 70%;
+  height: 100px;
+  /* background-color: #fff; */
+  background-color: rgb(247, 248, 243);
+
+  /* padding-top: 0px; */
+  display: flex;
+  /* flex-wrap: nowrap; */
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin-top: 38px;
+  padding-left: 15px;
+  font-family: Crimson Text;
+}
+.menu a:hover {
+  text-decoration: underline;
+  color: rgba(39, 35, 35, 0.849);
+  /* color: rgb(49, 27, 27); */
+}
+.crdback {
+  width: 100%;
+  height: 600px;
+  /* background-color: blueviolet; */
+  /* position: relative;
+  top: 100px; */
+}
+.page1 {
+  width: 100%;
+  height: 700px;
+  /* background-color: blue; */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  /* overflow: scroll;
+  z-index: 5; */
+}
+.crd1 {
+  width: 45%;
+  height: 650px;
+  background-color: white;
+  margin-left: 25px;
+}
+.crd2 {
+  width: 46%;
+  height: 650px;
+  /* background-color: rgb(243, 9, 9); */
+  margin-left: 70px;
+  background-image: url(./images/THREE_PIECE_SUIT.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+}
+.text {
+  text-align: center;
+  padding-top: 50px;
+  line-height: 40px;
+}
+#heading {
+  font-size: 40px;
+  font-family: "Sacramento", cursive;
+}
+a {
+  line-height: 22px;
+  color: black;
+  /* font-size: 10px; */
+}
+h1 {
+  font-size: 20px;
+  font-family: Crimson Text;
+  font-weight: bold;
+  line-height: 40px;
+}
+h2 {
+  font-size: 19px;
+  font-family: Crimson Text;
+}
+#btn {
+  /* padding: 0px 20px; */
+  margin: 0px 20px;
+}
+.page2 {
+  width: 100%;
+  height: 600px;
+  background-color: cyan;
+  /* display: flex; */
+  background-image: url(./images/PASTA_TRIO.jpg);
+  background-attachment: fixed;
+  /* backdrop-filter: blur (5px); */
+  background-size: 100% 100%;
+  /* position: fixed; */
+  /* z-index: 1; */
+}
+.bgimage {
+  width: 20%;
+  height: 150px;
+  top: 100px;
+  left: 40%;
+  background-color: rgba(15, 17, 15, 0.192);
+  position: sticky;
+  border-style: double;
+  border-radius: 5px;
+  border-color: yellow;
+  /* z-index: 0; */
+}
+.bgimage #menuuu {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  padding-top: 40px;
+}
+.page3 {
+  width: 100%;
+  height: 500px;
+  /* background-color: darkgrey; */
+}
+p {
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+  /* margin-top: 20px; */
+  padding-top: 40px;
+  text-align: center;
+}
+pre {
+  font-size: 20px;
+  text-align: center;
+  font-family: Crimson Text;
+  line-height: 25px;
+}
+.btns {
+  text-align: center;
+}
+#btns {
+  text-align: center;
+  /* padding-left: 110px; */
+  /* margin-left: 60px; */
+  margin: 0px 20px;
+}
+.page4 {
+  width: 100%;
+  height: 500px;
+  background-color: salmon;
+  background-image: url(./images/_ALLA_ROMANA.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
